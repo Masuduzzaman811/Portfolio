@@ -3,7 +3,6 @@ body {
   width: 20.4375rem;
   margin: 10px auto;
   background-color: #f7f7f9;
-
 }
 
 .navbar {
@@ -24,12 +23,12 @@ a:visited {
 
 a:hover {
   text-decoration: none;
-  opacity: .5;
+  opacity: 0.5;
 }
 
 a:active {
   text-decoration: underline;
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .menu-icon {
@@ -110,10 +109,10 @@ a:active {
   flex-flow: column wrap;
   align-content: center;
   justify-content: flex-start;
-  background-color: #ffffff;
+  background-color: #fff;
   width: 20.4375rem;
   margin: 0 auto;
-  box-shadow:0px 0px 0px 1px #dfe1e6 inset;
+  box-shadow: 0 0 0 1px #dfe1e6 inset;
   border-radius: 1rem;
 }
 
@@ -139,11 +138,10 @@ a:active {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: .8125rem;
+  font-size: 0.8125rem;
   line-height: 1rem;
   color: #7a8691;
   margin: 0 auto 0 1rem;
-
 }
 
 .card-list-first-child {
@@ -162,7 +160,6 @@ a:active {
   font-size: 1rem;
   line-height: 1.5rem;
   color: #344563;
-  /* text-align: justify; */
   margin: 1rem 1rem;
 }
 
@@ -174,7 +171,7 @@ a:active {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: .8125rem;
+  font-size: 0.8125rem;
   line-height: 1rem;
   color: #6070ff;
   margin: 0 1rem 1rem;
@@ -182,13 +179,13 @@ a:active {
 
 .card-lang-list-item {
   background-color: #ebebff;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
-  border-radius: .5rem;
-  padding:.2rem 1rem;
-  margin-right: .5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.2rem 1rem;
+  margin-right: 0.5rem;
 }
 
 .card-button-link {
@@ -197,10 +194,10 @@ a:active {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
-  letter-spacing: .03rem;
+  letter-spacing: 0.03rem;
   text-align: center;
   width: 35%;
-  padding: .75rem;
+  padding: 0.75rem;
   margin: 1rem 1rem;
   border: 1px solid #6070ff;
   color: #396df2;
@@ -218,7 +215,7 @@ a:active {
   flex-flow: column wrap;
   justify-content: center;
   align-content: center;
-  background-color: #ffffff;
+  background-color: #fff;
   margin: 10px 0;
   padding: 0 1rem;
   -webkit-border-radius: 0 50px 0 0;
@@ -242,10 +239,10 @@ a:active {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.5rem;
-  letter-spacing: .03rem;
+  letter-spacing: 0.03rem;
   text-align: center;
   width: 45%;
-  padding: .75rem;
+  padding: 0.75rem;
   margin: 1rem 0;
   border: 1px solid #6070ff;
   color: #396df2;
@@ -274,8 +271,7 @@ a:active {
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.5rem;
-  color: #000000;
-  
+  color: #000;
 }
 
 .about-icon {
@@ -301,12 +297,11 @@ a:active {
   line-height: 1.25rem;
   color: #253858;
   background-color: #f7f7f9;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
-  border-radius: .5rem;
-  margin: .5rem 0;
-  padding: .5rem .5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 0.5rem 0;
+  padding: 0.5rem 0.5rem;
 }
-
