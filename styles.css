@@ -335,6 +335,8 @@ a:active {
 }
 
 .contact-me {
+  display: flex;
+  flex-flow: column wrap;
   min-width: 18.4375rem;
   background-color: #6070ff;
   -webkit-border-radius: 50px 0 0 0;
@@ -437,9 +439,9 @@ textarea {
   width: 45%;
   padding: 0.75rem;
   margin: 1rem 0;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   background-color: #fff;
-  color: #396DF2;
+  color: #396df2;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
