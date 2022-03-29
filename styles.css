@@ -425,3 +425,29 @@ textarea {
   -o-border-radius: 8px;
   border-radius: 8px;
 }
+
+.footer-button {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.03rem;
+  text-align: center;
+  width: 45%;
+  padding: 0.75rem;
+  margin: 1rem 0;
+  border: 1px solid #6070FF;
+  background-color: #fff;
+  color: #396DF2;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
+
+
+
+
+
