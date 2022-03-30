@@ -352,7 +352,9 @@ a:active {
   background-position: right;
   display: flex;
   flex-flow: column wrap;
-  align-items: center;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
 }
 
 .contact-head {
@@ -385,14 +387,14 @@ a:active {
 .footer-form {
   display: flex;
   flex-flow: column wrap;
-  min-width: 18.4375rem;
 }
 
 input {
   display: flex;
   flex-flow: column wrap;
   align-items: stretch;
-  margin: 0.5rem 0;
+  max-width: 17rem;
+  margin: 0.5rem 1rem;
   padding: 0.75rem;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -411,7 +413,8 @@ input {
 textarea {
   display: inherit;
   justify-content: center;
-  margin: 1rem 0 2rem;
+  max-width: 17rem;
+  margin: 1rem 1rem 2rem;
   padding: 0.75rem;
   min-height: 5rem;
   font-family: 'Poppins', sans-serif;
@@ -438,7 +441,7 @@ textarea {
   text-align: center;
   width: 45%;
   padding: 0.75rem;
-  margin: 1rem 0;
+  margin: 1rem 1rem 2rem;
   border: 1px solid #6070ff;
   background-color: #fff;
   color: #396df2;
