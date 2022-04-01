@@ -16,7 +16,7 @@ Currently it has a home page only. It's the mobile version. This portfolio will 
 
 ## Live Demo
 
-[Masud's Portfolio] (https://masuduzzaman811.github.io/Portfolio/)
+[Masud's Portfolio](https://masuduzzaman811.github.io/Portfolio/)
 
 
 ### Setup
