@@ -601,6 +601,10 @@ textarea {
     gap: 0.5rem;
   }
 
+  .about-li {
+    color: #344563;
+  }
+
   .about-lang-list {
     flex-flow: column wrap;
   }
