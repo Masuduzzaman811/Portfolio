@@ -13,15 +13,28 @@
 <body>
     <!-- Navbar: Mobile version -->
 
-    <header class="navbar-mb">
+    <header id="nav" class="navbar-mb">
         <a class="logo" href="#">
             <h3>Md</h3>
         </a>
 
         <nav class="menu-icon">
-            <img src="images/menu-icon.svg" alt="menu_icon">
+            <button class="modal-btn" id="modal-btn">
+                <img src="images/menu-icon.svg" alt="menu_icon">
+            </button>
         </nav>
     </header>
+    <div class="modal" id="modal">
+        <div class="modal-container">
+            <span class="close">&times;</span>
+            <ul class="modal-list">
+                <li><a id="menu-link1" class="menu-link" href="#">Portfolio </a></li>
+                <li><a id="menu-link2" class="menu-link" href="#about-myself">About</a></li>
+                <li><a id="menu-link3" class="menu-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        
+    </div>
 
     <!-- Navbar: Desktop versin -->
 
@@ -42,7 +55,7 @@
 
     <!-- Head Container: Mobile version -->
     
-    <section class="head-container">
+    <section class="head-container" id="h-container">
         <h1 class="head-title desk-container-width">It's Md Masuduzzaman.<br> Welcome to my place!</h1>
     
         <div class="body-container desk-container-width">
@@ -67,7 +80,7 @@
         
     </section>
 
-    <section class="mid-container">
+    <section class="mid-container" id="m-container">
         <div class="work-card">
             <img class="card-image" src="images/work-card1.svg" alt="project-1">
             <h2 class="card-head">Tonic</h2>
@@ -352,5 +365,6 @@
 
     </section>
 
+    <script src="script.js"></script>
 </body>
 </html>
