@@ -39,7 +39,6 @@ a:active {
   align-self: center;
 }
 
-
 .modal {
   background-color: #6070ff;
   display: none;
@@ -59,7 +58,6 @@ a:active {
 .modal-container {
   width: 70%;
   margin: 1rem auto;
-
 }
 
 .modal-list {
@@ -84,7 +82,8 @@ a:active {
   color: #fff;
 }
 
-.close:hover, .close:focus {
+.close:hover,
+.close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
@@ -707,5 +706,4 @@ textarea {
   .footer-button {
     margin: 0 auto 2rem;
   }
-
 }
