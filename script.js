@@ -30,4 +30,4 @@ for (let i = 0; i < disappear.length; i += 1) {
     container.style.filter = 'none';
     mContainer.style.filter = 'none';
   };
-};
+}
