@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,18 +11,32 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
+
 <body>
     <!-- Navbar: Mobile version -->
 
-    <header class="navbar-mb">
+    <header id="nav" class="navbar-mb">
         <a class="logo" href="#">
             <h3>Md</h3>
         </a>
 
         <nav class="menu-icon">
-            <img src="images/menu-icon.svg" alt="menu_icon">
+            <button class="modal-btn" id="modal-btn">
+                <img src="images/menu-icon.svg" alt="menu_icon">
+            </button>
         </nav>
     </header>
+    <div class="modal" id="modal">
+        <div class="modal-container">
+            <span class="close">&times;</span>
+            <ul class="modal-list">
+                <li><a id="menu-link1" class="menu-link" href="#m-container">Portfolio </a></li>
+                <li><a id="menu-link2" class="menu-link" href="#about-myself">About</a></li>
+                <li><a id="menu-link3" class="menu-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
 
     <!-- Navbar: Desktop versin -->
 
@@ -36,38 +51,44 @@
                 <li><a href="#about-myself" rel="noopener noreferrer">About</a></li>
                 <li><a href="#contact" rel="noopener noreferrer">Contact</a></li>
             </ul>
-            
+
         </nav>
     </header>
 
     <!-- Head Container: Mobile version -->
-    
-    <section class="head-container">
+
+    <section class="head-container" id="h-container">
         <h1 class="head-title desk-container-width">It's Md Masuduzzaman.<br> Welcome to my place!</h1>
-    
+
         <div class="body-container desk-container-width">
             <p>
-                I'm a growing software developer! I can help you build web app or website. Have a look 
-                through some of my works. If you like what you see and have a project you need coded, don't hesitate to contact me.
+                I'm a growing software developer! I can help you build web app or website. Have a look
+                through some of my works. If you like what you see and have a project you need coded, don't hesitate to
+                contact me.
             </p>
         </div>
 
         <h3 class="contact desk-container-width">
             LET'S CONNECT
         </h3>
-      
+
         <ul class="contact-list desk-container-width">
-            <li><a class="contact-link" href="https://twitter.com/msd_811" rel="noopener noreferrer" target="_blank"><img src="images/twitter.svg" alt="Twitter"></a></li>
-            <li><a class="contact-link" href="https://www.linkedin.com/in/msd811/" rel="noopener noreferrer" target="_blank"><img src="images/linkedin-icon.svg" alt="LinkedIn"></a></li>
-            <li><a class="contact-link" href="https://www.linkedin.com/in/msd811/" rel="noopener noreferrer" target="_blank"><img src="images/m.svg" alt="M"></a></li>
-            <li><a class="contact-link" href="https://github.com/Masuduzzaman811" rel="noopener noreferrer" target="_blank"><img src="images/github.svg" alt="GitHub"></a></li>
-            <li><a class="contact-link" href="https://www.linkedin.com/in/msd811/" rel="noopener noreferrer" target="_blank"><img src="images/hand-logo.svg" alt="Angle"></a></li>
-            
+            <li><a class="contact-link" href="https://twitter.com/msd_811" rel="noopener noreferrer"
+                    target="_blank"><img src="images/twitter.svg" alt="Twitter"></a></li>
+            <li><a class="contact-link" href="https://www.linkedin.com/in/msd811/" rel="noopener noreferrer"
+                    target="_blank"><img src="images/linkedin-icon.svg" alt="LinkedIn"></a></li>
+            <li><a class="contact-link" href="https://www.linkedin.com/in/msd811/" rel="noopener noreferrer"
+                    target="_blank"><img src="images/m.svg" alt="M"></a></li>
+            <li><a class="contact-link" href="https://github.com/Masuduzzaman811" rel="noopener noreferrer"
+                    target="_blank"><img src="images/github.svg" alt="GitHub"></a></li>
+            <li><a class="contact-link" href="https://www.linkedin.com/in/msd811/" rel="noopener noreferrer"
+                    target="_blank"><img src="images/hand-logo.svg" alt="Angle"></a></li>
+
         </ul>
-        
+
     </section>
 
-    <section class="mid-container">
+    <section class="mid-container" id="m-container">
         <div class="work-card">
             <img class="card-image" src="images/work-card1.svg" alt="project-1">
             <h2 class="card-head">Tonic</h2>
@@ -77,7 +98,8 @@
                 <li class="card-list-item">2015</li>
             </ul>
 
-            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups
+                required. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
             <ul class="card-lang-list">
                 <li class="card-lang-list-item">html</li>
@@ -97,7 +119,8 @@
                 <li class="card-list-item">2015</li>
             </ul>
 
-            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups
+                required. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
             <ul class="card-lang-list">
                 <li class="card-lang-list-item">html</li>
@@ -117,7 +140,8 @@
                 <li class="card-list-item">2019</li>
             </ul>
 
-            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups
+                required. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
             <ul class="card-lang-list">
                 <li class="card-lang-list-item">html</li>
@@ -137,7 +161,8 @@
                 <li class="card-list-item">2020</li>
             </ul>
 
-            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups
+                required. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
             <ul class="card-lang-list">
                 <li class="card-lang-list-item">html</li>
@@ -155,7 +180,7 @@
 
         <div class="work-card-desk">
             <img class="card-img-desk" src="images/desktop-bg/desk-card-1.svg" alt="card-1">
-            
+
             <div class="card-text">
                 <h2 class="card-head">Tonic</h2>
                 <ul class="card-intro-list">
@@ -164,7 +189,8 @@
                     <li class="card-list-item">2020</li>
                 </ul>
 
-                <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <p class="card-paragraph">A daily selection of privately personalized reads; no accounts or sign-ups
+                    required.</p>
 
                 <ul class="card-lang-list">
                     <li class="card-lang-list-item">html</li>
@@ -177,7 +203,7 @@
         </div>
 
         <div class="work-card-desk">
-            
+
             <div class="card-text">
                 <h2 class="card-head">Multi-Post Stories</h2>
                 <ul class="card-intro-list">
@@ -186,8 +212,8 @@
                     <li class="card-list-item">2015</li>
                 </ul>
 
-                <p class="card-paragraph">Experimental content creation feature that 
-                    allows users to add to an existing story over the course of a day without 
+                <p class="card-paragraph">Experimental content creation feature that
+                    allows users to add to an existing story over the course of a day without
                     spamming their friends.</p>
 
                 <ul class="card-lang-list">
@@ -205,7 +231,7 @@
 
         <div class="work-card-desk">
             <img class="card-img-desk" src="images/desktop-bg/desk-card-3.svg" alt="card-3">
-            
+
             <div class="card-text">
                 <h2 class="card-head">Facebook 360</h2>
                 <ul class="card-intro-list">
@@ -214,7 +240,7 @@
                     <li class="card-list-item">2018</li>
                 </ul>
 
-                <p class="card-paragraph">Exploring the future of media in Facebook's first Virtual Reality app; 
+                <p class="card-paragraph">Exploring the future of media in Facebook's first Virtual Reality app;
                     a place to discover and enjoy 360 photos and videos on Gear VR.</p>
 
                 <ul class="card-lang-list">
@@ -230,7 +256,7 @@
         </div>
 
         <div class="work-card-desk">
-            
+
             <div class="card-text">
                 <h2 class="card-head">Uber Navigation</h2>
                 <ul class="card-intro-list">
@@ -239,7 +265,7 @@
                     <li class="card-list-item">2020</li>
                 </ul>
 
-                <p class="card-paragraph">A smart assistant to make driving more safe, efficient, 
+                <p class="card-paragraph">A smart assistant to make driving more safe, efficient,
                     and fun by unlocking your most expensive computer: your car.</p>
 
                 <ul class="card-lang-list">
@@ -264,28 +290,35 @@
     <section class="about-myself" id="about-myself">
         <div class="about-first-part">
             <h2 class="about-title">About <br>Myself</h2>
-        
+
             <div class="body-container">
                 <p>
-                    I'm a growing software developer! I can help you build web app or website. Have a look 
-                    through some of my works. If you like what you see and have a project you need coded, don't hesitate to contact me.
+                    I'm a growing software developer! I can help you build web app or website. Have a look
+                    through some of my works. If you like what you see and have a project you need coded, don't hesitate
+                    to contact me.
                 </p>
             </div>
 
             <h3 class="contact">
                 LET'S CONNECT
             </h3>
-        
+
             <ul class="contact-list">
-                <li><a class="contact-link" href="https://twitter.com/msd_811" rel="noopener noreferrer" target="_blank"><img src="images/twitter.svg" alt="Twitter"></a></li>
-                <li><a class="contact-link" href="https://www.linkedin.com/in/msd811/" rel="noopener noreferrer" target="_blank"><img src="images/linkedin-icon.svg" alt="LinkedIn"></a></li>
-                <li><a class="contact-link" href="https://www.linkedin.com/in/msd811/" rel="noopener noreferrer" target="_blank"><img src="images/m.svg" alt="M"></a></li>
-                <li><a class="contact-link" href="https://github.com/Masuduzzaman811" rel="noopener noreferrer" target="_blank"><img src="images/github.svg" alt="GitHub"></a></li>
-                <li><a class="contact-link" href="https://www.linkedin.com/in/msd811/" rel="noopener noreferrer" target="_blank"><img src="images/hand-logo.svg" alt="Angle"></a></li>
-                
+                <li><a class="contact-link" href="https://twitter.com/msd_811" rel="noopener noreferrer"
+                        target="_blank"><img src="images/twitter.svg" alt="Twitter"></a></li>
+                <li><a class="contact-link" href="https://www.linkedin.com/in/msd811/" rel="noopener noreferrer"
+                        target="_blank"><img src="images/linkedin-icon.svg" alt="LinkedIn"></a></li>
+                <li><a class="contact-link" href="https://www.linkedin.com/in/msd811/" rel="noopener noreferrer"
+                        target="_blank"><img src="images/m.svg" alt="M"></a></li>
+                <li><a class="contact-link" href="https://github.com/Masuduzzaman811" rel="noopener noreferrer"
+                        target="_blank"><img src="images/github.svg" alt="GitHub"></a></li>
+                <li><a class="contact-link" href="https://www.linkedin.com/in/msd811/" rel="noopener noreferrer"
+                        target="_blank"><img src="images/hand-logo.svg" alt="Angle"></a></li>
+
             </ul>
 
-            <div class="about-btn"><a class="about-button-link button" href="#" rel="noopener noreferrer" target="_blank">Get my resume</a></div>
+            <div class="about-btn"><a class="about-button-link button" href="#" rel="noopener noreferrer"
+                    target="_blank">Get my resume</a></div>
         </div>
 
         <div class="about-last-part">
@@ -331,12 +364,12 @@
             </ul>
         </div>
     </section>
-    
+
     <section class="contact-me" id="contact">
         <footer class="contact-footer">
             <div class="contact-head">
                 <h1 class="footer-h">Contact me</h1>
-                <p class="footer-p">If you have an application you are interested in developing, 
+                <p class="footer-p">If you have an application you are interested in developing,
                     a feature that you need built or a project that needs coding. I'd love to help with it
                 </p>
             </div>
@@ -344,13 +377,16 @@
             <form class="footer-form" action="https://formspree.io/f/xoqrnwja" method="POST">
                 <input type="text" name="User-name" maxlength="30" placeholder="Your full name" required>
                 <input type="email" name="User-email" placeholder="Your mail" required>
-                <textarea rows="3" name="User-message" maxlength="500" placeholder="Write your message here" required></textarea>
+                <textarea rows="3" name="User-message" maxlength="500" placeholder="Write your message here"
+                    required></textarea>
                 <input class="footer-button button" type="submit" value="Get In Touch">
             </form>
-           
+
         </footer>
 
     </section>
 
+    <script src="script.js"></script>
 </body>
+
 </html>

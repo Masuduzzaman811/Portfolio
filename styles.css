@@ -1,6 +1,5 @@
 
 body {
-  /* max-width: 20.4375rem; */
   margin: 10px auto;
   background-color: #f7f7f9;
 }
@@ -38,6 +37,57 @@ a:active {
 
 .menu-icon {
   align-self: center;
+}
+
+.modal {
+  background-color: #6070ff;
+  display: none;
+  position: fixed;
+  margin-top: -5rem;
+  margin-bottom: 0;
+  z-index: 1;
+  width: 100%;
+  min-height: 100%;
+  opacity: 0.9;
+  mix-blend-mode: multiply;
+}
+
+.modal-btn {
+  border: none;
+}
+
+.modal-container {
+  width: 90%;
+  margin: 1rem auto;
+}
+
+.modal-list {
+  list-style-type: none;
+  padding: 2rem 0.75rem;
+}
+
+.menu-link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.75rem;
+  color: #fff;
+  line-height: 4rem;
+}
+
+.close {
+  float: right;
+  max-width: 2.5rem;
+  max-height: 2.5rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .logo {
@@ -657,5 +707,4 @@ textarea {
   .footer-button {
     margin: 0 auto 2rem;
   }
-
 }
