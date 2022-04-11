@@ -22,15 +22,6 @@ quit.onclick = () => {
   mContainer.style.filter = "none";
 }
 
-window.onclick = (event) => {
-  if (event.target == modal) {
-    modal.style.display = "none";
-    nav.style.filter = "none";
-    container.style.filter = "none";
-    mContainer.style.filter = "none";
-  }
-}
-
 disappear1.onclick = () => {
   modal.style.display = "none";
   nav.style.filter = "none";
@@ -38,16 +29,3 @@ disappear1.onclick = () => {
   mContainer.style.filter = "none";
 }
 
-disappear2.onclick = () => {
-  modal.style.display = "none";
-  nav.style.filter = "none";
-  container.style.filter = "none";
-  mContainer.style.filter = "none";
-}
-
-disappear3.onclick = () => {
-  modal.style.display = "none";
-  nav.style.filter = "none";
-  container.style.filter = "none";
-  mContainer.style.filter = "none";
-}
