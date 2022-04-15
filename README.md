@@ -1,12 +1,14 @@
 # Portfolio
 
-> It's my portfolio page. This project is under construction. 
+> It's my portfolio page. This project is under construction. Day by day it's getting bigger!
 
 
 ## Built With
 
 - HTML, CSS
 - Git, GitHub
+- Bootstrap 5
+- JavaScript
 
 
 ### About "Portfolio"
@@ -53,6 +55,11 @@ Feel free to contact me on:
 - [Twitter](https://twitter.com/msd_811)
 - [LinkedIn](https://www.linkedin.com/in/msd811/)
 
+
+### Contributors
+👤 **Emmanuel Moombe**
+👤 **Olawale Olapetan**
+👤 **Shahnawaz Ali**
 
 ## 🤝 Contributing
 
