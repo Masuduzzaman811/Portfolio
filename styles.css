@@ -149,7 +149,7 @@ a:active {
   padding-right: 1.5rem;
 }
 
-.contact-link>img:hover {
+.contact-link > img:hover {
   transform: scale(1.2) translate(0.3rem, -0.3rem);
   -webkit-transform: scale(1.2) translate(0.3rem, -0.3rem);
   -moz-transform: scale(1.2) translate(0.3rem, -0.3rem);
