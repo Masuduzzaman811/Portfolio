@@ -745,6 +745,7 @@ textarea {
 .modal-lang-list {
   margin-bottom: 2rem;
   border-bottom: 1px solid #ebecf0;
+  padding-bottom: 1.5rem;
 }
 
 .no-border-bottom {
