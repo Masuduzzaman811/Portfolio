@@ -219,7 +219,7 @@ SEE_DESK_PROJECT3.onclick = () => {
   [p3Lan2d.innerHTML] = [PROJECTS_LIST_DESK[2].technologies[1]];
   const p3Lan3d = document.getElementById('p3-lan3-d');
   [p3Lan3d.innerHTML] = [PROJECTS_LIST_DESK[2].technologies[2]];
-}
+};
 SEE_DESK_PROJECT4.onclick = () => {
   const p4Named = document.getElementById('p4-name-d');
   p4Named.innerHTML = PROJECTS_LIST_DESK[3].name;
@@ -235,4 +235,4 @@ SEE_DESK_PROJECT4.onclick = () => {
   [p4Lan2d.innerHTML] = [PROJECTS_LIST_DESK[3].technologies[1]];
   const p4Lan3d = document.getElementById('p4-lan3-d');
   [p4Lan3d.innerHTML] = [PROJECTS_LIST_DESK[3].technologies[2]];
-}
+};
