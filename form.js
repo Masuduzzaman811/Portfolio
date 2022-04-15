@@ -5,7 +5,8 @@ const errorMessage = document.getElementById('error-message');
 const validate = (email) => {
   if (email === email.toLowerCase()) {
     return true;
-  } else return false;
+  }
+  return false;
 };
 
 contactForm.addEventListener('submit', (e) => {
