@@ -788,3 +788,7 @@ textarea {
   line-height: 1.5rem;
   color: #344563;
 }
+
+.border-bottom {
+  border-bottom: 1px solid #ebecf0;
+}
