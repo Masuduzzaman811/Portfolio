@@ -797,3 +797,20 @@ textarea {
 .width-90 {
   max-width: 90%;
 }
+
+.error-box {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: small;
+  text-align: justify;
+  line-height: 1.5rem;
+  color: white;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+}
