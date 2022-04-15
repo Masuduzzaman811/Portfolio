@@ -236,4 +236,3 @@ SEE_DESK_PROJECT4.onclick = ()=> {
   const p4_lan3_d = document.getElementById('p4-lan3-d');
   p4_lan3_d.innerHTML = PROJECTS_LIST_DESK[3].technologies[2];
 }
-
