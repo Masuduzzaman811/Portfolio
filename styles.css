@@ -655,11 +655,6 @@ textarea {
     margin-top: 1rem;
   }
 
-  /* .desk-modal {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-  } */
-
   .about-myself {
     display: grid;
     grid-template-columns: 2fr 3fr;
